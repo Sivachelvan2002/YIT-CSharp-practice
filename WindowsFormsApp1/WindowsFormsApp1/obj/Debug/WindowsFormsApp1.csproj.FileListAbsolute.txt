@@ -8,3 +8,13 @@ C:\Users\Sivachelvan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Wi
 C:\Users\Sivachelvan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Sivachelvan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\Sivachelvan\source\repos\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.fullname.resources
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.fullname.resources
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\c#\YIT-CSharp-practice\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
