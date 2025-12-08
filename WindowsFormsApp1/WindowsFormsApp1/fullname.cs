@@ -24,10 +24,7 @@ namespace WindowsFormsApp1
            // MessageBox.Show($"Hi {name}");
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void btnFullname_Click(object sender, EventArgs e)
         {
@@ -36,5 +33,7 @@ namespace WindowsFormsApp1
             
             MessageBox.Show($"Your Full Name is {fname}{lname}");
         }
+
+        
     }
 }
