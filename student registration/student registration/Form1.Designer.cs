@@ -41,13 +41,14 @@
             this.txtLname = new System.Windows.Forms.TextBox();
             this.rdoMale = new System.Windows.Forms.RadioButton();
             this.rdoFemale = new System.Windows.Forms.RadioButton();
-            this.rdoOthers = new System.Windows.Forms.RadioButton();
+            this.rdoOther = new System.Windows.Forms.RadioButton();
             this.cmbGrade = new System.Windows.Forms.ComboBox();
             this.ckbMaths = new System.Windows.Forms.CheckBox();
             this.ckbIct = new System.Windows.Forms.CheckBox();
             this.ckbEnglish = new System.Windows.Forms.CheckBox();
             this.dtpDob = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.lblClear = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblHeading
@@ -125,13 +126,15 @@
             // btnSend
             // 
             this.btnSend.AutoSize = true;
+            this.btnSend.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btnSend.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSend.Location = new System.Drawing.Point(363, 378);
+            this.btnSend.Location = new System.Drawing.Point(394, 378);
             this.btnSend.Name = "btnSend";
-            this.btnSend.Padding = new System.Windows.Forms.Padding(10);
-            this.btnSend.Size = new System.Drawing.Size(59, 36);
+            this.btnSend.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
+            this.btnSend.Size = new System.Drawing.Size(59, 20);
             this.btnSend.TabIndex = 7;
             this.btnSend.Text = "Send";
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // lblSubject
             // 
@@ -145,16 +148,18 @@
             // 
             // txtFname
             // 
+            this.txtFname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFname.Location = new System.Drawing.Point(348, 65);
             this.txtFname.Name = "txtFname";
-            this.txtFname.Size = new System.Drawing.Size(205, 26);
+            this.txtFname.Size = new System.Drawing.Size(205, 22);
             this.txtFname.TabIndex = 9;
             // 
             // txtLname
             // 
+            this.txtLname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLname.Location = new System.Drawing.Point(348, 97);
             this.txtLname.Name = "txtLname";
-            this.txtLname.Size = new System.Drawing.Size(205, 26);
+            this.txtLname.Size = new System.Drawing.Size(205, 22);
             this.txtLname.TabIndex = 10;
             // 
             // rdoMale
@@ -181,17 +186,17 @@
             this.rdoFemale.Text = "Female";
             this.rdoFemale.UseVisualStyleBackColor = true;
             // 
-            // rdoOthers
+            // rdoOther
             // 
-            this.rdoOthers.AutoSize = true;
-            this.rdoOthers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoOthers.Location = new System.Drawing.Point(484, 133);
-            this.rdoOthers.Name = "rdoOthers";
-            this.rdoOthers.Size = new System.Drawing.Size(57, 20);
-            this.rdoOthers.TabIndex = 13;
-            this.rdoOthers.TabStop = true;
-            this.rdoOthers.Text = "Other";
-            this.rdoOthers.UseVisualStyleBackColor = true;
+            this.rdoOther.AutoSize = true;
+            this.rdoOther.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdoOther.Location = new System.Drawing.Point(484, 133);
+            this.rdoOther.Name = "rdoOther";
+            this.rdoOther.Size = new System.Drawing.Size(57, 20);
+            this.rdoOther.TabIndex = 13;
+            this.rdoOther.TabStop = true;
+            this.rdoOther.Text = "Other";
+            this.rdoOther.UseVisualStyleBackColor = true;
             // 
             // cmbGrade
             // 
@@ -249,26 +254,41 @@
             this.dtpDob.Size = new System.Drawing.Size(205, 22);
             this.dtpDob.TabIndex = 19;
             // 
-            // textBox1
+            // txtAddress
             // 
-            this.textBox1.Location = new System.Drawing.Point(348, 309);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 48);
-            this.textBox1.TabIndex = 20;
+            this.txtAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAddress.Location = new System.Drawing.Point(348, 309);
+            this.txtAddress.Multiline = true;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(205, 48);
+            this.txtAddress.TabIndex = 20;
+            // 
+            // lblClear
+            // 
+            this.lblClear.AutoSize = true;
+            this.lblClear.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClear.Location = new System.Drawing.Point(298, 378);
+            this.lblClear.Name = "lblClear";
+            this.lblClear.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
+            this.lblClear.Size = new System.Drawing.Size(59, 20);
+            this.lblClear.TabIndex = 21;
+            this.lblClear.Text = "Clear";
+            this.lblClear.Click += new System.EventHandler(this.lblClear_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 692);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(821, 692);
+            this.Controls.Add(this.lblClear);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.dtpDob);
             this.Controls.Add(this.ckbEnglish);
             this.Controls.Add(this.ckbIct);
             this.Controls.Add(this.ckbMaths);
             this.Controls.Add(this.cmbGrade);
-            this.Controls.Add(this.rdoOthers);
+            this.Controls.Add(this.rdoOther);
             this.Controls.Add(this.rdoFemale);
             this.Controls.Add(this.rdoMale);
             this.Controls.Add(this.txtLname);
@@ -283,7 +303,7 @@
             this.Controls.Add(this.lblFname);
             this.Controls.Add(this.lblHeading);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -306,13 +326,14 @@
         private System.Windows.Forms.TextBox txtLname;
         private System.Windows.Forms.RadioButton rdoMale;
         private System.Windows.Forms.RadioButton rdoFemale;
-        private System.Windows.Forms.RadioButton rdoOthers;
+        private System.Windows.Forms.RadioButton rdoOther;
         private System.Windows.Forms.ComboBox cmbGrade;
         private System.Windows.Forms.CheckBox ckbMaths;
         private System.Windows.Forms.CheckBox ckbIct;
         private System.Windows.Forms.CheckBox ckbEnglish;
         private System.Windows.Forms.DateTimePicker dtpDob;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.Label lblClear;
     }
 }
 

@@ -8,3 +8,4 @@ D:\CSharp\student registration\student registration\obj\Debug\student registrati
 D:\CSharp\student registration\student registration\obj\Debug\student registration.csproj.CoreCompileInputs.cache
 D:\CSharp\student registration\student registration\obj\Debug\student registration.exe
 D:\CSharp\student registration\student registration\obj\Debug\student registration.pdb
+D:\CSharp\student registration\student registration\obj\Debug\student_registration.Form2.resources

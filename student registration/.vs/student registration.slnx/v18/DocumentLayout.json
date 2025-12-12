@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\CSharp\\student registration\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|d:\\csharp\\student registration\\student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|d:\\csharp\\student registration\\student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|d:\\csharp\\student registration\\student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|D:\\CSharp\\student registration\\student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|d:\\csharp\\student registration\\student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|D:\\CSharp\\student registration\\student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|d:\\csharp\\student registration\\student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|D:\\CSharp\\student registration\\student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70441D72-8303-4752-8015-6517A189EA89}|student registration\\student registration.csproj|solutionrelative:student registration\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +26,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form2.cs",
               "DocumentMoniker": "D:\\CSharp\\student registration\\student registration\\Form2.cs",
               "RelativeDocumentMoniker": "student registration\\Form2.cs",
               "ToolTip": "D:\\CSharp\\student registration\\student registration\\Form2.cs",
               "RelativeToolTip": "student registration\\Form2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAIwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:58:06.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-12T09:58:06.062Z"
             },
             {
               "$type": "Document",
@@ -50,8 +49,7 @@
               "ToolTip": "D:\\CSharp\\student registration\\student registration\\Form2.cs [Design]",
               "RelativeToolTip": "student registration\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T09:49:36.55Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-12-12T09:49:36.55Z"
             },
             {
               "$type": "Document",
@@ -61,14 +59,14 @@
               "RelativeDocumentMoniker": "student registration\\Form1.cs",
               "ToolTip": "D:\\CSharp\\student registration\\student registration\\Form1.cs",
               "RelativeToolTip": "student registration\\Form1.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAIwGIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-12T09:14:27.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "D:\\CSharp\\student registration\\student registration\\Form1.cs",
               "RelativeDocumentMoniker": "student registration\\Form1.cs",

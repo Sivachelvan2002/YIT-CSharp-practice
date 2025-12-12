@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.dtpDob = new System.Windows.Forms.DateTimePicker();
             this.ckbEnglish = new System.Windows.Forms.CheckBox();
             this.ckbIct = new System.Windows.Forms.CheckBox();
             this.ckbMaths = new System.Windows.Forms.CheckBox();
             this.cmbGrade = new System.Windows.Forms.ComboBox();
-            this.rdoOthers = new System.Windows.Forms.RadioButton();
+            this.rdoOther = new System.Windows.Forms.RadioButton();
             this.rdoFemale = new System.Windows.Forms.RadioButton();
             this.rdoMale = new System.Windows.Forms.RadioButton();
             this.txtLname = new System.Windows.Forms.TextBox();
             this.txtFname = new System.Windows.Forms.TextBox();
             this.lblSubject = new System.Windows.Forms.Label();
-            this.btnSend = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Label();
             this.lblAddress = new System.Windows.Forms.Label();
             this.lbldob = new System.Windows.Forms.Label();
             this.lblGrade = new System.Windows.Forms.Label();
@@ -50,13 +50,13 @@
             this.lblHeading = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtAddress
             // 
-            this.textBox1.Location = new System.Drawing.Point(357, 323);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 48);
-            this.textBox1.TabIndex = 40;
+            this.txtAddress.Location = new System.Drawing.Point(357, 323);
+            this.txtAddress.Multiline = true;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(205, 48);
+            this.txtAddress.TabIndex = 40;
             // 
             // dtpDob
             // 
@@ -114,17 +114,17 @@
             this.cmbGrade.TabIndex = 35;
             this.cmbGrade.Text = "-- select grade --";
             // 
-            // rdoOthers
+            // rdoOther
             // 
-            this.rdoOthers.AutoSize = true;
-            this.rdoOthers.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdoOthers.Location = new System.Drawing.Point(493, 147);
-            this.rdoOthers.Name = "rdoOthers";
-            this.rdoOthers.Size = new System.Drawing.Size(57, 20);
-            this.rdoOthers.TabIndex = 34;
-            this.rdoOthers.TabStop = true;
-            this.rdoOthers.Text = "Other";
-            this.rdoOthers.UseVisualStyleBackColor = true;
+            this.rdoOther.AutoSize = true;
+            this.rdoOther.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdoOther.Location = new System.Drawing.Point(493, 147);
+            this.rdoOther.Name = "rdoOther";
+            this.rdoOther.Size = new System.Drawing.Size(57, 20);
+            this.rdoOther.TabIndex = 34;
+            this.rdoOther.TabStop = true;
+            this.rdoOther.Text = "Other";
+            this.rdoOther.UseVisualStyleBackColor = true;
             // 
             // rdoFemale
             // 
@@ -174,16 +174,17 @@
             this.lblSubject.TabIndex = 29;
             this.lblSubject.Text = "Subjects";
             // 
-            // btnSend
+            // btnBack
             // 
-            this.btnSend.AutoSize = true;
-            this.btnSend.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSend.Location = new System.Drawing.Point(372, 392);
-            this.btnSend.Name = "btnSend";
-            this.btnSend.Padding = new System.Windows.Forms.Padding(10);
-            this.btnSend.Size = new System.Drawing.Size(59, 36);
-            this.btnSend.TabIndex = 28;
-            this.btnSend.Text = "Send";
+            this.btnBack.AutoSize = true;
+            this.btnBack.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBack.Location = new System.Drawing.Point(372, 392);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Padding = new System.Windows.Forms.Padding(10, 2, 10, 2);
+            this.btnBack.Size = new System.Drawing.Size(58, 20);
+            this.btnBack.TabIndex = 28;
+            this.btnBack.Text = "Back";
             // 
             // lblAddress
             // 
@@ -263,19 +264,19 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.dtpDob);
             this.Controls.Add(this.ckbEnglish);
             this.Controls.Add(this.ckbIct);
             this.Controls.Add(this.ckbMaths);
             this.Controls.Add(this.cmbGrade);
-            this.Controls.Add(this.rdoOthers);
+            this.Controls.Add(this.rdoOther);
             this.Controls.Add(this.rdoFemale);
             this.Controls.Add(this.rdoMale);
             this.Controls.Add(this.txtLname);
             this.Controls.Add(this.txtFname);
             this.Controls.Add(this.lblSubject);
-            this.Controls.Add(this.btnSend);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblAddress);
             this.Controls.Add(this.lbldob);
             this.Controls.Add(this.lblGrade);
@@ -292,19 +293,19 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.DateTimePicker dtpDob;
         private System.Windows.Forms.CheckBox ckbEnglish;
         private System.Windows.Forms.CheckBox ckbIct;
         private System.Windows.Forms.CheckBox ckbMaths;
         private System.Windows.Forms.ComboBox cmbGrade;
-        private System.Windows.Forms.RadioButton rdoOthers;
+        private System.Windows.Forms.RadioButton rdoOther;
         private System.Windows.Forms.RadioButton rdoFemale;
         private System.Windows.Forms.RadioButton rdoMale;
         private System.Windows.Forms.TextBox txtLname;
         private System.Windows.Forms.TextBox txtFname;
         private System.Windows.Forms.Label lblSubject;
-        private System.Windows.Forms.Label btnSend;
+        private System.Windows.Forms.Label btnBack;
         private System.Windows.Forms.Label lblAddress;
         private System.Windows.Forms.Label lbldob;
         private System.Windows.Forms.Label lblGrade;
