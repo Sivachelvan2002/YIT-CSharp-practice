@@ -1,0 +1,10 @@
+D:\CSharp\student registration\student registration\bin\Debug\student registration.exe.config
+D:\CSharp\student registration\student registration\bin\Debug\student registration.exe
+D:\CSharp\student registration\student registration\bin\Debug\student registration.pdb
+D:\CSharp\student registration\student registration\obj\Debug\student registration.csproj.AssemblyReference.cache
+D:\CSharp\student registration\student registration\obj\Debug\student_registration.Form1.resources
+D:\CSharp\student registration\student registration\obj\Debug\student_registration.Properties.Resources.resources
+D:\CSharp\student registration\student registration\obj\Debug\student registration.csproj.GenerateResource.cache
+D:\CSharp\student registration\student registration\obj\Debug\student registration.csproj.CoreCompileInputs.cache
+D:\CSharp\student registration\student registration\obj\Debug\student registration.exe
+D:\CSharp\student registration\student registration\obj\Debug\student registration.pdb
